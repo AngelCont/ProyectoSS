@@ -22,3 +22,6 @@ C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegoci
 C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\obj\x86\Debug\qualifiers.txt
 C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\bin\x86\Debug\AccesoDeDatos.dll
+C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\bin\x86\Debug\AccesoDeDatos.pdb
+C:\Users\Angel\Desktop\EE Feb-Jul\Proyecto\ProyectoServicioSocial\LogicaDeNegocio\bin\x86\Debug\AccesoDeDatos.pri

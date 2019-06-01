@@ -9,9 +9,9 @@ namespace LogicaDeNegocio.Interfaces
 {
     interface IReporteDAO
     {
-        List<Reporte> recuperarListaDeReportes(int idExpediente);
-        void registrarReporte(Reporte reporte);
-        void modificarReporte(Reporte reporte);
-        void eliminarReporte(int idReporte);
+        Reporte CargarReporte();
+        List<Reporte> CargarReportes();
+        List<Reporte> CargarReportesPorMatricula(string matricula);
+        void GuardarReporte(Reporte nuevoReporte);
     }
 }

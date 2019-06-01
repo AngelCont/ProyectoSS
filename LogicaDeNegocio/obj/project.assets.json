@@ -306,6 +306,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
@@ -791,6 +804,19 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
         }
       }
     },
@@ -1279,6 +1305,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
@@ -1766,6 +1805,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
@@ -2251,6 +2303,19 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
         }
       }
     },
@@ -2739,6 +2804,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
@@ -3224,6 +3302,19 @@
         },
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
+        }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
         }
       }
     },
@@ -3711,6 +3802,19 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "AccesoDeDatos/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.16299",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.7"
+        },
+        "compile": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDeDatos.dll": {}
         }
       }
     }
@@ -8142,10 +8246,16 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "AccesoDeDatos/1.0.0": {
+      "type": "project",
+      "path": "../AccesoADatos/AccesoDeDatos.csproj",
+      "msbuildProject": "../AccesoADatos/AccesoDeDatos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
+      "AccesoDeDatos >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.7"
     ]
   },
@@ -8179,7 +8289,11 @@
       },
       "frameworks": {
         "uap10.0.16299": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoDeDatos.csproj": {
+              "projectPath": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoDeDatos.csproj"
+            }
+          }
         }
       }
     },

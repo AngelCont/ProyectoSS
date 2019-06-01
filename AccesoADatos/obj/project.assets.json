@@ -8156,9 +8156,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoADatos.csproj",
-      "projectName": "AccesoADatos",
-      "projectPath": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoADatos.csproj",
+      "projectUniqueName": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoDeDatos.csproj",
+      "projectName": "AccesoDeDatos",
+      "projectPath": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\AccesoDeDatos.csproj",
       "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Angel\\Desktop\\EE Feb-Jul\\Proyecto\\ProyectoServicioSocial\\AccesoADatos\\obj\\",
       "projectStyle": "PackageReference",

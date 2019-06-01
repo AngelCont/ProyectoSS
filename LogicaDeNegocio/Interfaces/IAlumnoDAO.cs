@@ -9,10 +9,15 @@ namespace LogicaDeNegocio.Interfaces
 {
     interface IAlumnoDAO
     {
-        Alumno recuperarAlumno(String matricula);
-        void cambiarEstadoDeAlumno(int idAlumno,int idEstado);
-        void eliminarAlumno(int idAlumno);
-        void actualizarDatosDeAlumno(Alumno alumno);
-        void registrarAlumno(Alumno alumno);
+        void GuardarAlumno(Alumno nuevoAlumno);
+        List<Alumno> CargarAlumnos();
+        Alumno CargarAlumnoPorMatricula(string matricula);
+        void EliminarAlumno(int idAlumno);
+        void ModificarNombre(string nuevoNombre, int idAlumno);
+        void ModificarApellidoPaterno(string nuevoApellidoPaterno, int idAlumno);
+        void ModificarApellidoMaterno(string nuevoApellidoMaterno, int idAlumno);
+        void ModificarMatricula(string nuevaMatricula, int idAlumno);
+        void AsignarProyecto(int idProyecto, int idAlumno);
+        void AsignarExpediente(int idExpediente, int idAlumno);
     }
 }

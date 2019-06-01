@@ -7,8 +7,8 @@
     <ProjectGuid>{BF8478F8-B94D-4FDB-A65B-30C8A828131F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AccesoADatos</RootNamespace>
-    <AssemblyName>AccesoADatos</AssemblyName>
+    <RootNamespace>AccesoDeDatos</RootNamespace>
+    <AssemblyName>AccesoDeDatos</AssemblyName>
     <DefaultLanguage>es-ES</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>

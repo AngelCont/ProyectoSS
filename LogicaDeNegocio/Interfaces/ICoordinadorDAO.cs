@@ -7,13 +7,16 @@ using LogicaDeNegocio.Objetos;
 
 namespace LogicaDeNegocio.Interfaces
 {
-    interface ICoordinadorDeServicioSocialDAO
+    interface ICoordinadorDAO
     {
-        Coordinador recuperarDatos(int numeroDePersonal);
-        List<Coordinador> recuperarListaDeCoordinadores();
-        void cambiarEstado(Coordinador coordinador);
-        void actualizarDatosBasicos(Coordinador coordinador);
-        void registrarCoordinador(Coordinador coordinador);
-        
+        List<Coordinador> CargarCoordinadores();
+        Coordinador CargarCoordinadorPorNumeroPersonal(int numeroDePersonal);
+        void DarDeBajaCoordinador(int idCoordinador);
+        void GuardarCoordinador(Coordinador nuevoCoordinador);
+        void ModificarApellidoMaterno(string nuevoApellidoMaterno, int idCoordinador);
+        void ModificarApellidoPaterno(string nuevoApellidoPaterno, int idCoordinador);
+        void ModificarNombre(string nuevoNombre, int idCoordinador);
+        void ModificarNumeroDePersonal(string nuevoNumeroDePersonal, int idCoordinador);
+        void ModificarTelefono(string nuevoTelefono, int idCoordinador);
     }
 }

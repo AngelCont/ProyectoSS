@@ -15,5 +15,6 @@ namespace LogicaDeNegocio.Objetos
         public String CorreoElectronico { get; set; }
         public int NumeroDePersonal { get; set; }
         public String Telefono { get; set; }
+        public String Correo { get; set; }
     }
 }
