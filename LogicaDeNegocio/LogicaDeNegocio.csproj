@@ -120,6 +120,21 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Objetos\Alumno.cs" />
+    <Compile Include="Objetos\Coordinador.cs" />
+    <Compile Include="Objetos\CoordinadorTienePeriodoDeEntrega.cs" />
+    <Compile Include="Objetos\DiaAtencion.cs" />
+    <Compile Include="Objetos\Documento.cs" />
+    <Compile Include="Objetos\EncargadoDeOrganizacion.cs" />
+    <Compile Include="Objetos\Expediente.cs" />
+    <Compile Include="Objetos\ExpedienteTieneCoordinador.cs" />
+    <Compile Include="Objetos\OrganizacionVinculada.cs" />
+    <Compile Include="Objetos\PeriodoDeEntrega.cs" />
+    <Compile Include="Objetos\ProgramaEducativo.cs" />
+    <Compile Include="Objetos\Proyecto.cs" />
+    <Compile Include="Objetos\Reporte.cs" />
+    <Compile Include="Objetos\Solicitud.cs" />
+    <Compile Include="Objetos\TecnicoAcademico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\LogicaDeNegocio.rd.xml" />
   </ItemGroup>
@@ -127,6 +142,10 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.7</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DAO\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
