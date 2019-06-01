@@ -120,6 +120,21 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAlumnoDAO.cs" />
+    <Compile Include="Interfaces\ICoordinadorDAO.cs" />
+    <Compile Include="Interfaces\ICoordinadorTienePeriodoEntregaDAO.cs" />
+    <Compile Include="Interfaces\IDiaAtencionDAO.cs" />
+    <Compile Include="Interfaces\IDocumentoDAO.cs" />
+    <Compile Include="Interfaces\IEncargadoDeOrganizacionDAO.cs" />
+    <Compile Include="Interfaces\IExpedienteDAO.cs" />
+    <Compile Include="Interfaces\IExpedienteTieneCoordinadorDAO.cs" />
+    <Compile Include="Interfaces\IOrganizacionVinculadaDAO.cs" />
+    <Compile Include="Interfaces\IPeriodoDeEntregaDAO.cs" />
+    <Compile Include="Interfaces\IProgramaEducativoDAO.cs" />
+    <Compile Include="Interfaces\IProyectoDAO.cs" />
+    <Compile Include="Interfaces\IReporteDAO.cs" />
+    <Compile Include="Interfaces\ISolicitudDAO.cs" />
+    <Compile Include="Interfaces\ITecnicoAcademicoDAO.cs" />
     <Compile Include="Objetos\Alumno.cs" />
     <Compile Include="Objetos\Coordinador.cs" />
     <Compile Include="Objetos\CoordinadorTienePeriodoDeEntrega.cs" />
@@ -145,7 +160,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAO\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
